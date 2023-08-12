@@ -5,4 +5,3 @@
 </a>
 
 - Maybe I'd change the script with Count API later.
-/* https://api.countapi.xyz/create?namespace={domain name of your website}&enable_reset=1 */
