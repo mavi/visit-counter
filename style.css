@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:300&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #222222;
+	color: #F3EFE0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	min-height: 100vh;
+	font-family: 'Muli', sans-serif;
+	margin: 0;
+	padding: 10px;
+	text-align: center;
+}
+
+h1 {
+	color: #F3EFE0;
+    font-size: 50px;
+	margin: 0;
+}
+
+h3 {
+	color: #F3EFE0;
+	margin: 10px 0 10px;
+}
+
+.container {
+	width: 500px;
+	max-width: 100%;
+}
+
+.x-btn {
+    border-radius: 26.5px;
+	background-color: #F3EFE0;
+	border: 1px solid #222222;
+	box-shadow: 0 16px 22px -17px #000000;
+	color: #434242;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 5px 20px;
+	margin: 10px 0px 10px 0;
+}
+
+.x-btn:hover {
+	background-color: red;
+	color: #F3EFE0;
+}
+
+.x-btn:focus {
+	outline: none;
+}
+
+.floating-btn {
+	border-radius: 26.5px;
+	background-color: #F3EFE0;
+	border: 1px solid #222222;
+	box-shadow: 0 16px 22px -17px #000000;
+	color: #434242;
+	cursor: pointer;
+	font-size: 16px;
+	line-height: 20px;
+	padding: 12px 20px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	z-index: 999;
+}
+
+.floating-btn:hover {
+	background-color: #434242;
+	color: #F3EFE0;
+}
+
+.floating-btn:focus {
+	outline: none;
+}
+
+@media screen and (max-width: 480px) {
+
+	.social-panel-container.visible {
+		transform: translateX(0px);
+	}
+	
+	.floating-btn {
+		right: 10px;
+	}
+}
