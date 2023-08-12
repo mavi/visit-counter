@@ -4,4 +4,4 @@
     <img src="website.png" href="" alt="Example image of Website." />
 </a>
 
-- Maybe I'd change the script with Count API later.
+- Maybe later I could change the script with the CountAPI.
